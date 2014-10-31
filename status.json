@@ -4,7 +4,7 @@
   "maintainers": ["schacon"],
   "files": {
     "01-introduction": {
-      "1-introduction.asc": 10,
+      "1-introduction.asc": 60,
       "sections/about-version-control.asc": 0,
       "sections/basics.asc": 0,
       "sections/command-line.asc": 0,
