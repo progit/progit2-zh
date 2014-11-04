@@ -1,10 +1,10 @@
 {
-  "code": "en",
-  "language": "English",
-  "maintainers": ["schacon"],
+  "code": "zh",
+  "language": "Simplified Chinese",
+  "maintainers": ["devbean"],
   "files": {
     "01-introduction": {
-      "1-introduction.asc": 60,
+      "1-introduction.asc": 100,
       "sections/about-version-control.asc": 100,
       "sections/basics.asc": 0,
       "sections/command-line.asc": 0,
