@@ -1,16 +1,16 @@
 {
-  "code": "en",
-  "language": "English",
-  "maintainers": ["schacon"],
+  "code": "zh",
+  "language": "Simplified Chinese",
+  "maintainers": ["devbean"],
   "files": {
     "01-introduction": {
-      "1-introduction.asc": 60,
-      "sections/about-version-control.asc": 0,
+      "1-introduction.asc": 100,
+      "sections/about-version-control.asc": 100,
       "sections/basics.asc": 0,
       "sections/command-line.asc": 0,
       "sections/first-time-setup.asc": 0,
       "sections/help.asc": 0,
-      "sections/history.asc": 0,
+      "sections/history.asc": 100,
       "sections/installing.asc": 0
     },
     "02-git-basics": {
