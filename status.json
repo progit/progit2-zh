@@ -24,10 +24,10 @@
       "sections/viewing-history.asc": 0
     },
     "03-git-branching": {
-      "1-git-branching.asc": 0,
+      "1-git-branching.asc": 100,
       "sections/basic-branching-and-merging.asc": 0,
       "sections/branch-management.asc": 0,
-      "sections/nutshell.asc": 0,
+      "sections/nutshell.asc": 100,
       "sections/rebasing.asc": 0,
       "sections/remote-branches.asc": 0,
       "sections/workflows.asc": 0
