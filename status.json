@@ -61,7 +61,7 @@
     "07-git-tools": {
       "1-git-tools.asc": 100,
       "sections/advanced-merging.asc": 0,
-      "sections/bundling.asc": 50,
+      "sections/bundling.asc": 100,
       "sections/credentials.asc": 0,
       "sections/debugging.asc": 0,
       "sections/interactive-staging.asc": 0,
