@@ -63,7 +63,7 @@
       "sections/advanced-merging.asc": 0,
       "sections/bundling.asc": 100,
       "sections/credentials.asc": 100,
-      "sections/debugging.asc": 0,
+      "sections/debugging.asc": 20,
       "sections/interactive-staging.asc": 0,
       "sections/notes.asc": 0,
       "sections/replace.asc": 0,
