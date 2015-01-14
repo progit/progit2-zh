@@ -63,7 +63,7 @@
       "sections/advanced-merging.asc": 0,
       "sections/bundling.asc": 100,
       "sections/credentials.asc": 100,
-      "sections/debugging.asc": 70,
+      "sections/debugging.asc": 100,
       "sections/interactive-staging.asc": 0,
       "sections/notes.asc": 0,
       "sections/replace.asc": 0,
@@ -75,7 +75,7 @@
       "sections/signing.asc": 0,
       "sections/stashing-cleaning.asc": 0,
       "sections/submodules.asc": 0,
-      "sections/subtree-merges.asc": 0
+      "sections/subtree-merges.asc": 70
     },
     "08-customizing-git": {
       "1-customizing-git.asc": 0,
