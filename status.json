@@ -75,7 +75,7 @@
       "sections/signing.asc": 0,
       "sections/stashing-cleaning.asc": 0,
       "sections/submodules.asc": 0,
-      "sections/subtree-merges.asc": 0
+      "sections/subtree-merges.asc": 70
     },
     "08-customizing-git": {
       "1-customizing-git.asc": 0,
