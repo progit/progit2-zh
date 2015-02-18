@@ -118,7 +118,7 @@
     },
     "B-embedding-git": {
       "1-embedding-git.asc": 100,
-      "sections/command-line.asc": 0,
+      "sections/command-line.asc": 100,
       "sections/jgit.asc": 0,
       "sections/libgit2.asc": 0
     },
