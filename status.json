@@ -33,7 +33,7 @@
       "sections/workflows.asc": 0
     },
     "04-git-server": {
-      "1-git-server.asc": 0,
+      "1-git-server.asc": 100,
       "sections/generating-ssh-key.asc": 0,
       "sections/git-daemon.asc": 0,
       "sections/git-on-a-server.asc": 0,
