@@ -9,7 +9,7 @@
       "sections/basics.asc": 100,
       "sections/command-line.asc": 100,
       "sections/first-time-setup.asc": 0,
-      "sections/help.asc": 0,
+      "sections/help.asc": 100,
       "sections/history.asc": 100,
       "sections/installing.asc": 0
     },
@@ -33,7 +33,7 @@
       "sections/workflows.asc": 0
     },
     "04-git-server": {
-      "1-git-server.asc": 0,
+      "1-git-server.asc": 100,
       "sections/generating-ssh-key.asc": 0,
       "sections/git-daemon.asc": 0,
       "sections/git-on-a-server.asc": 0,
@@ -63,7 +63,7 @@
       "sections/advanced-merging.asc": 0,
       "sections/bundling.asc": 100,
       "sections/credentials.asc": 100,
-      "sections/debugging.asc": 70,
+      "sections/debugging.asc": 100,
       "sections/interactive-staging.asc": 0,
       "sections/notes.asc": 0,
       "sections/replace.asc": 0,
@@ -75,7 +75,7 @@
       "sections/signing.asc": 0,
       "sections/stashing-cleaning.asc": 0,
       "sections/submodules.asc": 0,
-      "sections/subtree-merges.asc": 0
+      "sections/subtree-merges.asc": 70
     },
     "08-customizing-git": {
       "1-customizing-git.asc": 0,
@@ -117,8 +117,8 @@
       "sections/zsh.asc": 0
     },
     "B-embedding-git": {
-      "1-embedding-git.asc": 0,
-      "sections/command-line.asc": 0,
+      "1-embedding-git.asc": 100,
+      "sections/command-line.asc": 100,
       "sections/jgit.asc": 0,
       "sections/libgit2.asc": 0
     },
