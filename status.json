@@ -38,8 +38,8 @@
       "sections/git-daemon.asc": 100,
       "sections/git-on-a-server.asc": 100,
       "sections/gitlab.asc": 0,
-      "sections/gitweb.asc": 0,
-      "sections/hosted.asc": 0,
+      "sections/gitweb.asc": 100,
+      "sections/hosted.asc": 100,
       "sections/protocols.asc": 100,
       "sections/setting-up-server.asc": 100,
       "sections/smart-http.asc": 100
