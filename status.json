@@ -97,7 +97,7 @@
       "sections/import-tfs.asc": 0
     },
     "10-git-internals": {
-      "1-git-internals.asc": 0,
+      "1-git-internals.asc": 100,
       "sections/environment.asc": 0,
       "sections/maintenance.asc": 0,
       "sections/objects.asc": 0,
