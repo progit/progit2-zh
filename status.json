@@ -40,7 +40,7 @@
       "sections/gitlab.asc": 0,
       "sections/gitweb.asc": 0,
       "sections/hosted.asc": 0,
-      "sections/protocols.asc": 0,
+      "sections/protocols.asc": 17,
       "sections/setting-up-server.asc": 0,
       "sections/smart-http.asc": 0
     },
