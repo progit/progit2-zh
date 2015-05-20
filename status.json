@@ -108,10 +108,10 @@
       "sections/transfer-protocols.asc": 0
     },
     "A-git-in-other-environments": {
-      "1-git-other-environments.asc": 0,
+      "1-git-other-environments.asc": 50,
       "sections/bash.asc": 0,
       "sections/eclipse.asc": 0,
-      "sections/guis.asc": 0,
+      "sections/guis.asc": 100,
       "sections/powershell.asc": 0,
       "sections/visualstudio.asc": 0,
       "sections/zsh.asc": 0
