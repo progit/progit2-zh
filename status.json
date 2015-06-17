@@ -120,7 +120,7 @@
       "1-embedding-git.asc": 100,
       "sections/command-line.asc": 100,
       "sections/jgit.asc": 100,
-      "sections/libgit2.asc": 0
+      "sections/libgit2.asc": 100
     },
     "C-git-commands": {
       "1-git-commands.asc": 0
