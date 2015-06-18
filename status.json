@@ -35,14 +35,14 @@
     "04-git-server": {
       "1-git-server.asc": 100,
       "sections/generating-ssh-key.asc": 0,
-      "sections/git-daemon.asc": 0,
+      "sections/git-daemon.asc": 100,
       "sections/git-on-a-server.asc": 0,
       "sections/gitlab.asc": 0,
       "sections/gitweb.asc": 0,
-      "sections/hosted.asc": 0,
+      "sections/hosted.asc": 100,
       "sections/protocols.asc": 17,
       "sections/setting-up-server.asc": 0,
-      "sections/smart-http.asc": 0
+      "sections/smart-http.asc": 100
     },
     "05-distributed-git": {
       "1-distributed-git.asc": 0,
@@ -112,9 +112,9 @@
       "sections/bash.asc": 0,
       "sections/eclipse.asc": 0,
       "sections/guis.asc": 100,
-      "sections/powershell.asc": 0,
+      "sections/powershell.asc": 100,
       "sections/visualstudio.asc": 0,
-      "sections/zsh.asc": 0
+      "sections/zsh.asc": 100
     },
     "B-embedding-git": {
       "1-embedding-git.asc": 100,
