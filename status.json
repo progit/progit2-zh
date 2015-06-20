@@ -30,7 +30,7 @@
       "sections/nutshell.asc": 100,
       "sections/rebasing.asc": 100,
       "sections/remote-branches.asc": 0,
-      "sections/workflows.asc": 0
+      "sections/workflows.asc": 100
     },
     "04-git-server": {
       "1-git-server.asc": 100,
