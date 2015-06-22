@@ -82,7 +82,7 @@
       "sections/attributes.asc": 0,
       "sections/config.asc": 0,
       "sections/hooks.asc": 0,
-      "sections/policy.asc": 0
+      "sections/policy.asc": 100
     },
     "09-git-and-other-scms": {
       "1-git-and-other-scms.asc": 0,
