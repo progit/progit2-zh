@@ -55,7 +55,7 @@
       "sections/1-setting-up-account.asc": 0,
       "sections/2-contributing.asc": 100,
       "sections/3-maintaining.asc": 0,
-      "sections/4-managing-organization.asc": 0,
+      "sections/4-managing-organization.asc": 100,
       "sections/5-scripting.asc": 0
     },
     "07-git-tools": {
