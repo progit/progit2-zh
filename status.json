@@ -100,7 +100,7 @@
       "1-git-internals.asc": 100,
       "sections/environment.asc": 0,
       "sections/maintenance.asc": 0,
-      "sections/objects.asc": 0,
+      "sections/objects.asc": 100,
       "sections/packfiles.asc": 0,
       "sections/plumbing-porcelain.asc": 100,
       "sections/refs.asc": 100,
