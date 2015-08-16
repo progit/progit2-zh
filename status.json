@@ -105,7 +105,7 @@
       "sections/plumbing-porcelain.asc": 100,
       "sections/refs.asc": 100,
       "sections/refspec.asc": 100,
-      "sections/transfer-protocols.asc": 0
+      "sections/transfer-protocols.asc": 100
     },
     "A-git-in-other-environments": {
       "1-git-other-environments.asc": 50,
