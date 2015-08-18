@@ -68,6 +68,6 @@
       "consolidated": false
     }
   },
-  "theme": "oreillymedia/atlas_tech1c_theme",
+  "theme": "git@github.com:networm/atlas_tech1c_theme.git",
   "title": "Pro Git"
 }
