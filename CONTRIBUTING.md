@@ -34,4 +34,4 @@
 
 由于每一个翻译都是不同的仓库，我们就能够为每一个项目指定不同的维护人员。Pro Git 团队只需要进行拉取操作，并为每一个翻译团队进行构建。为了进行自动构建，翻译的仓库需要添加到 [GitHub上的 `progit` 组织](https://github.com/progit)。
 
-你可以在 http://progit.org/translations[] 找到所有当前翻译的信息以及如何开始你自己的翻译。
+你可以在 http://progit.org/translations 找到所有当前翻译的信息以及如何开始你自己的翻译。
