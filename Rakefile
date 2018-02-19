@@ -1,36 +1,49 @@
 # coding: utf-8
 require 'octokit'
 
+def exec_or_raise(command)
+  puts `#{command}`
+  if (! $?.success?)
+    raise "'#{command}' failed"
+  end
+end
+
 namespace :book do
   desc 'build basic book formats'
   task :build do
 
     puts "Generating contributors list"
-    `git shortlog -s --all| grep -v -E "(Straub|Chacon)" | cut -f 2- | column -c 120 > book/contributors.txt`
+    exec_or_raise("git shortlog -s --all| grep -v -E '(Straub|Chacon)' | cut -f 2- | column -c 120 > book/contributors.txt")
 
     puts "Converting to HTML..."
-    `bundle exec asciidoctor progit.asc`
+    exec_or_raise("bundle exec asciidoctor progit.asc")
     puts " -- HTML output at progit.html"
 
     puts "Converting to EPub..."
-    `bundle exec asciidoctor-epub3 progit.asc`
+    exec_or_raise("bundle exec asciidoctor-epub3 progit.asc")
     puts " -- Epub output at progit.epub"
 
-    sh "epubcheck progit.epub"
+    exec_or_raise("epubcheck progit.epub")
 
     puts "Converting to Mobi (kf8)..."
-    `bundle exec asciidoctor-epub3 -a ebook-format=kf8 progit.asc`
+    exec_or_raise("bundle exec asciidoctor-epub3 -a ebook-format=kf8 progit.asc")
     puts " -- Mobi output at progit.mobi"
 
+    repo = ENV['TRAVIS_REPO_SLUG']
     puts "Converting to PDF... (this one takes a while)"
-    `bundle exec asciidoctor-pdf progit.asc 2>/dev/null`
+    if (repo == "progit/progit2-zh")
+      exec_or_raise("asciidoctor-pdf-cjk-kai_gen_gothic-install")
+      exec_or_raise("bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicCN progit.asc")
+    else
+      exec_or_raise("bundle exec asciidoctor-pdf progit.asc 2>/dev/null")
+    end
     puts " -- PDF output at progit.pdf"
   end
 
   desc 'tag the repo with the latest version'
   task :tag do
     api_token = ENV['GITHUB_API_TOKEN']
-    if (api_token && (ENV['TRAVIS_PULL_REQUEST'] == 'false') && (ENV['TRAVIS_BRANCH']=='master') && !ENV['TRAVIS_TAG'])
+    if (api_token && (ENV['TRAVIS_PULL_REQUEST'] == 'false') && (ENV['TRAVIS_BRANCH']=='master'))
       repo = ENV['TRAVIS_REPO_SLUG']
       @octokit = Octokit::Client.new(:access_token => api_token)
       begin
@@ -148,7 +161,7 @@ namespace :book do
         content = File.read (filename)
         new_contents = content.gsub(/include::(.*?)asc/) {|match|
           "include::book/#{num}-#{title}/#{$1}asc"}
-        `git rm #{filename}`
+        `git rm -f #{filename}`
         File.open("#{chap}.asc", "w") {|file|
           file.puts "[##{chap}]\n"
           file.puts new_contents }
