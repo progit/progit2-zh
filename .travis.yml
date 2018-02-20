@@ -10,10 +10,11 @@ script: bundle exec rake book:build
 after_success: bundle exec rake book:tag
 deploy:
   provider: releases
+  file_glob: true
   file:
-  - progit.epub
-  - progit.mobi
-  - progit.pdf
+  - progit*.epub
+  - progit*.mobi
+  - progit*.pdf
   skip_cleanup: true
   on:
     tags: true
