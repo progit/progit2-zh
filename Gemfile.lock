@@ -1,4 +1,17 @@
 GIT
+  remote: git://github.com/Furtif/github-changelog-generator.git
+  revision: 5d7f18bc415e9a2c27769b7ea0adb9bc18b285c0
+  specs:
+    github_changelog_generator (1.15.0.pre.rc)
+      activesupport
+      faraday-http-cache
+      multi_json
+      octokit (~> 4.6)
+      rainbow (>= 2.2.1)
+      rake (>= 10.0)
+      retriable (~> 3.0)
+
+GIT
   remote: https://github.com/asciidoctor/asciidoctor-epub3
   revision: 76c0411690d101aa22d98bad75ffa647a4885647
   specs:
@@ -11,6 +24,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (1.0.3)
+    activesupport (6.0.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.1, >= 2.1.8)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     afm (0.2.2)
@@ -31,20 +50,26 @@ GEM
       asciidoctor-pdf-cjk (~> 0.1.2)
     awesome_print (1.8.0)
     coderay (1.1.2)
+    concurrent-ruby (1.1.5)
     css_parser (1.6.0)
       addressable
-    epubcheck (3.0.1)
+    epubcheck-ruby (4.1.1.0)
     faraday (0.14.0)
       multipart-post (>= 1.2, < 3)
+    faraday-http-cache (2.0.0)
+      faraday (~> 0.8)
     gepub (0.6.9.2)
       nokogiri (~> 1.6.1)
       rubyzip (>= 1.1.1)
     hashery (2.1.2)
+    i18n (1.7.0)
+      concurrent-ruby (~> 1.0)
     json (2.1.0)
     kindlegen (3.0.3)
       rake
       rubyzip
     mini_portile2 (2.1.0)
+    minitest (5.12.2)
     multi_json (1.13.1)
     multipart-post (2.0.0)
     nokogiri (1.6.8.1)
@@ -75,9 +100,11 @@ GEM
     public_suffix (3.0.2)
     pygments.rb (1.2.1)
       multi_json (>= 1.0.0)
+    rainbow (3.0.0)
     rake (12.3.0)
+    retriable (3.1.2)
     ruby-rc4 (0.1.5)
-    rubyzip (1.2.1)
+    rubyzip (2.0.0)
     safe_yaml (1.0.4)
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
@@ -86,6 +113,9 @@ GEM
     treetop (1.5.3)
       polyglot (~> 0.3)
     ttfunk (1.5.1)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    zeitwerk (2.2.0)
 
 PLATFORMS
   ruby
@@ -98,7 +128,8 @@ DEPENDENCIES
   asciidoctor-pdf-cjk-kai_gen_gothic (~> 0.1.1)
   awesome_print
   coderay
-  epubcheck
+  epubcheck-ruby
+  github_changelog_generator!
   json
   kindlegen
   octokit
