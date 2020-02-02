@@ -4,8 +4,7 @@ git:
   depth: false
 cache: bundler
 before_install:
- - wget https://raw.githubusercontent.com/progit/progit2-pub/master/bootstrap.sh
- - sh bootstrap.sh
+ - rm -f Gemfile.lock
 script: bundle exec rake book:build
 after_success: bundle exec rake book:tag
 deploy:
