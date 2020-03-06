@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg28025" version="1.1" viewBox="0 0 426 205" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata28031">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>images/smudge</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+ <title id="title27947">images/smudge</title>
+ <desc id="desc27949">Created with Sketch.</desc>
+ <g id="08---Smudge-and-Clean" fill="none" fill-rule="evenodd">
+  <g id="Group" transform="translate(10 10)">
+   <g id="other" transform="translate(0 45)">
+    <rect id="Rectangle-2" width="86" height="33" fill="#EFEFE7" fill-rule="evenodd"/>
+    <text id="master" fill="#979797" font-family="Source Code Pro" font-size="12px" font-weight="700" text-anchor="middle"><tspan id="tspan27952" x="43" y="21" fill="#808080">fileA.txt</tspan></text>
+   </g>
+   <rect id="Rectangle-9" x="138.5" y=".5" width="109" height="142" fill="#D8D8D8" stroke="#979797"/>
+   <g id="goldref" transform="translate(300 45)">
+    <rect id="Rectangle-3" width="87" height="33" fill="#CD9F00" fill-rule="evenodd"/>
+    <text id="master-2" fill="#979797" font-family="Source Code Pro" font-size="12px" font-weight="700" text-anchor="middle"><tspan id="tspan27958" x="43.5" y="20" fill="#f0f0f0">fileA.txt'</tspan></text>
+   </g>
+   <g id="g27968" transform="translate(300 98)">
+    <rect id="rect27962" width="87" height="33" fill="#CD9F00" fill-rule="evenodd"/>
+    <text id="text27966" fill="#979797" font-family="Source Code Pro" font-size="12px" font-weight="700" text-anchor="middle"><tspan id="tspan27964" x="43.5" y="20" fill="#f0f0f0">fileB.txt'</tspan></text>
+   </g>
+   <g id="g27976" transform="translate(0 98)">
+    <rect id="rect27970" width="86" height="33" fill="#EFEFE7" fill-rule="evenodd"/>
+    <text id="text27974" fill="#979797" font-family="Source Code Pro" font-size="12px" font-weight="700" text-anchor="middle"><tspan id="tspan27972" x="43" y="21" fill="#808080">fileB.txt</tspan></text>
+   </g>
+   <g id="g27984" transform="translate(0 151)">
+    <rect id="rect27978" width="86" height="33" fill="#EFEFE7" fill-rule="evenodd"/>
+    <text id="text27982" fill="#979797" font-family="Source Code Pro" font-size="12px" font-weight="700" text-anchor="middle"><tspan id="tspan27980" x="43" y="21" fill="#808080">fileC.rb</tspan></text>
+   </g>
+   <g id="g27992" transform="translate(300 151)">
+    <rect id="rect27986" width="86" height="33" fill="#EFEFE7" fill-rule="evenodd"/>
+    <text id="text27990" fill="#979797" font-family="Source Code Pro" font-size="12px" font-weight="700" text-anchor="middle"><tspan id="tspan27988" x="43" y="21" fill="#808080">fileC.rb</tspan></text>
+   </g>
+   <text id="Staging-Area" transform="translate(-11.412)" font-size="12px" font-weight="700" style="fill:#404040;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan27994" x="54.5" y="22" style="fill:#404040">Staging Area</tspan></text>
+   <text id="Working-Directory" transform="translate(289.15)" font-size="12px" font-weight="700" style="fill:#404040;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan27997" x="54.5" y="22" style="fill:#404040">Working Directory</tspan></text>
+   <text id="*.txt-Filter" transform="translate(138.43)" font-size="12px" font-weight="700" style="fill:#404040;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan28000" x="54.5" y="22" style="fill:#404040">*.txt Filter</tspan></text>
+   <g id="ref" transform="translate(150 45)">
+    <rect id="rect28003" width="86.187" height="33" fill="#F44D27" fill-rule="evenodd"/>
+    <text id="text28007" fill="#979797" font-family="Source Code Pro" font-size="12px" font-weight="700" text-anchor="middle"><tspan id="tspan28005" x="43.09345795" y="20" fill="#f0f0f0">smudge</tspan></text>
+   </g>
+   <g id="g28016" transform="translate(150 98)">
+    <rect id="rect28010" width="86.187" height="33" fill="#F44D27" fill-rule="evenodd"/>
+    <text id="text28014" fill="#979797" font-family="Source Code Pro" font-size="12px" font-weight="700" text-anchor="middle"><tspan id="tspan28012" x="43.09345795" y="20" fill="#f0f0f0">clean</tspan></text>
+   </g>
+   <path id="Line" d="m291 169h-204v-1h204v-4l9 4.5-9 4.5v-4z" fill="#8F8981" fill-rule="nonzero"/>
+   <path id="Line-2" d="m141 63h-54v-1h54v-4l9 4.5-9 4.5v-4z" fill="#8F8981" fill-rule="nonzero"/>
+   <path id="Line-3" d="m291 64h-55v-1h55v-4l9 4.5-9 4.5v-4z" fill="#8F8981" fill-rule="nonzero"/>
+   <path id="Line-4" d="m142 71.968c-7.0598.40966-13.566 1.8194-18.723 4.552-6.9044 3.6585-10.749 9.38-10.749 17.577 1e-6 11.618-4.9267 18.264-13.106 20.948-3.9129 1.2838-8.0431 1.5039-11.761 1.1136-.34273-.035977-.64823-.074599-.91288-.11334-.16072-.023524-.27333-.042099-.33421-.053199l-.49189-.08968.17936-.98378.49189.08968c.04961.009045.15072.025724.29968.047526.25147.036806.54351.073727.87246.10826 3.5892.37676 7.5861.16385 11.344-1.0693 7.7731-2.5504 12.418-8.8161 12.418-19.997-1e-6-8.5882 4.0644-14.637 11.281-18.461 5.3218-2.8199 11.983-4.2584 19.199-4.6705l.030499-4.0302 8.9657 4.568-9.0338 4.4318.030024-3.9675z" fill="#8F8981" fill-rule="nonzero"/>
+   <path id="Line-5" d="m290.01 115.96c-11.928-2.7066-19.793-9.6708-19.793-22.464 0-9.966-6.2552-16.307-16.763-19.784-3.6099-1.1948-7.4822-1.9602-11.37-2.3799-1.3885-.14986-2.6896-.24512-3.8725-.29644-.74985-.032532-1.3205-.042498-1.6812-.040599l-.019542.0001343-.49997.0051859-.010372-.99995.49997-.0051859.02465-.0001743c.37648-.0019817.96325.008266 1.7299.041525 1.2035.052216 2.5258.14903 3.9364.30128 3.9536.42671 7.8934 1.2055 11.577 2.4247 10.875 3.5992 17.449 10.263 17.449 20.734 0 12.2 7.4474 18.833 18.909 21.464l.4526-3.9124 8.4232 5.5044-9.4575 3.4359.46606-4.0287z" fill="#8F8981" fill-rule="nonzero"/>
+  </g>
+ </g>
+</svg>
