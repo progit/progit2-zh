@@ -1,0 +1,73 @@
+{
+  "branch": "master",
+  "files": [
+    "book/cover.html",
+    "LICENSE.asc",
+    "book/preface.asc",
+    "book/contributors.asc",
+    "book/introduction.asc",
+    "book/toc.asc",
+    "book/01-introduction/1-introduction.asc",
+    "book/02-git-basics/1-git-basics.asc",
+    "book/03-git-branching/1-git-branching.asc",
+    "book/04-git-server/1-git-server.asc",
+    "book/05-distributed-git/1-distributed-git.asc",
+    "book/06-github/1-github.asc",
+    "book/07-git-tools/1-git-tools.asc",
+    "book/08-customizing-git/1-customizing-git.asc",
+    "book/09-git-and-other-scms/1-git-and-other-scms.asc",
+    "book/10-git-internals/1-git-internals.asc",
+    "book/A-git-in-other-environments/1-git-other-environments.asc",
+    "book/B-embedding-git/1-embedding-git.asc",
+    "book/C-git-commands/1-git-commands.asc",
+    "book/index.asc"
+  ],
+  "formats": {
+    "pdf": {
+      "version": "web",
+      "index": true,
+      "toc": true,
+      "syntaxhighlighting": true,
+      "show_comments": false
+    },
+    "epub": {
+      "index": true,
+      "toc": true,
+      "epubcheck": true,
+      "embedded_fonts": [
+        "fonts/DejaVuSerif.otf",
+        "fonts/DejaVuSans-Bold.otf",
+        "fonts/hold/UbuntuMono-Bold.otf",
+        "fonts/hold/UbuntuMono-BoldItalic.otf",
+        "fonts/hold/UbuntuMono-Regular.otf",
+        "fonts/hold/UbuntuMono-Italic.otf"
+      ],
+      "syntaxhighlighting": true,
+      "show_comments": false
+    },
+    "mobi": {
+      "index": true,
+      "toc": true,
+      "embedded_fonts": [
+        "fonts/DejaVuSerif.otf",
+        "fonts/DejaVuSans-Bold.otf",
+        "fonts/hold/UbuntuMono-Bold.otf",
+        "fonts/hold/UbuntuMono-BoldItalic.otf",
+        "fonts/hold/UbuntuMono-Regular.otf",
+        "fonts/hold/UbuntuMono-Italic.otf"
+      ],
+      "syntaxhighlighting": true,
+      "show_comments": false
+    },
+    "html": {
+      "index": true,
+      "toc": true,
+      "syntaxhighlighting": true,
+      "show_comments": false,
+      "consolidate": false,
+      "consolidated": false
+    }
+  },
+  "theme": "oreillymedia/atlas_tech1c_theme",
+  "title": "Pro Git"
+}

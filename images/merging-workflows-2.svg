@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg10843" version="1.1" viewBox="0 0 689 258" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata10849">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>images/merging-workflows-2</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+ <title id="title10718">images/merging-workflows-2</title>
+ <desc id="desc10720">Created with Sketch.</desc>
+ <g id="g11072" transform="translate(-2,-5)">
+  <g id="Line-+-brown-2" transform="translate(6,66)" style="fill-rule:evenodd;fill:none">
+   <g id="brown">
+    <rect id="Rectangle-1" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="C6" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10723" x="44.5" y="21" style="fill:gray">C1</tspan></text>
+   </g>
+  </g>
+  <g id="Line-+-brown-3" transform="translate(95,66)" style="fill-rule:evenodd;fill:none">
+   <path id="Line" d="m9 16h45v1h-45v4l-9-4.5 9-4.5z" style="fill-rule:nonzero;fill:#8f8981"/>
+   <g id="g10735" transform="translate(30)">
+    <rect id="rect10729" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="text10733" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10731" x="44.5" y="21" style="fill:gray">C2</tspan></text>
+   </g>
+  </g>
+  <g id="g10998">
+   <path id="Line-3" d="m223 82h45v1h-45v4l-9-4.5 9-4.5z" style="fill:#8f8981"/>
+   <g id="g10745" transform="translate(244,66)" style="fill-rule:evenodd;fill:none">
+    <rect id="rect10739" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="text10743" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10741" x="44.5" y="21" style="fill:gray">C7</tspan></text>
+   </g>
+  </g>
+  <g id="Line-+-brown-5" transform="translate(209,94)" style="fill-rule:evenodd;fill:none">
+   <path id="path10747" d="m7.8327 4.8281 51.361 34.536-.558.82984-51.361-34.536-2.232 3.3194-4.9576-8.7563 9.9796 1.2877z" style="fill-rule:nonzero;fill:#8f8981"/>
+   <g id="g10755" transform="translate(35,23)">
+    <rect id="rect10749" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="text10753" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10751" x="44.5" y="21" style="fill:gray">C3</tspan></text>
+   </g>
+  </g>
+  <g id="Line-+-brown-6" transform="translate(333,117)" style="fill-rule:evenodd;fill:none">
+   <path id="path10758" d="m9 16h45v1h-45v4l-9-4.5 9-4.5z" style="fill-rule:nonzero;fill:#8f8981"/>
+   <g id="g10766" transform="translate(30)">
+    <rect id="rect10760" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="text10764" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10762" x="44.5" y="21" style="fill:gray">C4</tspan></text>
+   </g>
+  </g>
+  <path id="Line-5" transform="translate(.6)" d="m460.12 184.78c16.663-2.4226 35.03-5.6433 52.981-9.639 25.66-5.7115 46.525-12.168 60.386-19.336 13.259-6.8555 23.98-18.338 32.427-33.16 5.0168-8.8027 8.9232-18.238 11.849-27.674 1.0241-3.3025 1.8522-6.3686 2.501-9.1192.22686-.96188.41504-1.8153.56659-2.5505.0906-.43967.14878-.74132.17648-.89507l.0887-.49208.98416.17732-.0887.49208c-.0292.16185-.0889.47169-.18124.91966-.15343.74425-.34363 1.6069-.57269 2.5781-.65388 2.7724-1.488 5.8606-2.5192 9.1859-2.946 9.5006-6.8796 19.002-11.935 27.873-8.5353 14.976-19.387 26.598-32.837 33.553-13.957 7.2162-34.89 13.695-60.628 19.423-17.982 4.0024-36.375 7.2276-53.062 9.6536l.54559 3.9668-9.5292-3.2317 8.3029-5.6843z" style="fill:#8f8981"/>
+  <g id="g10973">
+   <path id="path10769" d="m577 82h45v1h-45v4l-9-4.5 9-4.5z" style="fill:#8f8981"/>
+   <g id="g10778" transform="translate(598,66)" style="fill-rule:evenodd;fill:none">
+    <rect id="rect10772" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="text10776" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10774" x="44.5" y="21" style="fill:gray">C9</tspan></text>
+   </g>
+  </g>
+  <g id="Line-+-brown-9" transform="translate(333,66)" style="fill-rule:evenodd;fill:none">
+   <path id="path10780" d="m9.9352 16h144.13v1h-144.13v4l-9-4.5 9-4.5z" style="fill-rule:nonzero;fill:#8f8981"/>
+   <path id="Line-4" d="m121.66 49.626 39.959-33.831.64615.76321-39.959 33.831 2.5846 3.0528-9.7766 2.381 3.9612-9.2498z" style="fill-rule:nonzero;fill:#8f8981"/>
+   <g id="g10789" transform="translate(146)">
+    <rect id="rect10783" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="text10787" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10785" x="44.5" y="21" style="fill:gray">C8</tspan></text>
+   </g>
+  </g>
+  <g id="Line-+-brown-8" transform="translate(194,99)" style="fill-rule:evenodd;fill:none">
+   <path id="path10792" d="m2.8462 8.3301c7.771 20.863 16.2 39.044 23.823 48.109 1.9573 2.3276 4.6648 4.86 8.0394 7.5629 3.8046 3.0474 8.3911 6.26 13.591 9.5755 5.561 3.5457 11.521 7.0204 17.481 10.278 2.0862 1.1403 4.0233 2.172 5.7615 3.0769.60815.3166 1.1479.5947 1.6131.83203.27872.1422.47041.2391.56884.28843l.44702.224-.448.89403-.44702-.224c-.10055-.050388-.29439-.14838-.5753-.2917-.46756-.23855-1.0098-.5179-1.6204-.83579-1.744-.90792-3.687-1.9428-5.7794-3.0865-5.9786-3.2679-11.957-6.7536-17.539-10.313-5.2279-3.3333-9.8426-6.5658-13.678-9.6381-3.4216-2.7406-6.1747-5.3156-8.1796-7.6998-7.7253-9.1868-16.185-27.435-23.999-48.415l-3.7713 1.3525 1.1977-9.9908 7.274 6.9526z" style="fill-rule:nonzero;fill:#8f8981"/>
+   <g id="g10800" transform="translate(50,71)">
+    <rect id="rect10794" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="text10798" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10796" x="44.5" y="21" style="fill:gray">C5</tspan></text>
+   </g>
+  </g>
+  <g id="g10984">
+   <path id="path10803" d="m342 186h45v1h-45v4l-9-4.5 9-4.5z" style="fill:#8f8981"/>
+   <g id="g10811" transform="translate(363,170)" style="fill-rule:evenodd;fill:none">
+    <rect id="rect10805" width="89" height="33" rx="16.5" ry="16.5" style="fill-rule:evenodd;fill:#efefe7"/>
+    <text id="text10809" font-size="12px" font-weight="700" style="fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10807" x="44.5" y="21" style="fill:gray">C6</tspan></text>
+   </g>
+  </g>
+  <g id="g10966">
+   <path id="Line-2" transform="translate(599.9,9)" d="m42 48v-43h1v43h4l-4.5 9-4.5-9z" style="fill:#8f8981"/>
+   <g id="g10959">
+    <rect id="Rectangle-2" transform="matrix(.83962 0 0 1 597.9 9)" width="106" height="33" style="fill-rule:evenodd;fill:#f44d27"/>
+    <text id="master" transform="translate(589.5 9.316)" font-size="12px" font-weight="700" style="fill-rule:evenodd;fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10815" x="53" y="20" style="fill:#f0f0f0">master</tspan></text>
+   </g>
+  </g>
+  <g id="g10977">
+   <path id="path10820" transform="translate(452,117)" d="m9 16h60v1h-60v4l-9-4.5 9-4.5z" style="fill:#8f8981"/>
+   <rect id="rect10822" transform="matrix(.83962 0 0 1 478.8 117)" width="106" height="33" style="fill-rule:evenodd;fill:#f44d27"/>
+  </g>
+  <text id="text10826" transform="translate(469.9 116.87)" font-size="12px" font-weight="700" style="fill-rule:evenodd;fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10824" x="53" y="20" style="fill:#f0f0f0">ruby_client</tspan></text>
+  <g id="g10991">
+   <path id="path10831" transform="translate(365,203)" d="m43 9v31h-1v-31h-4l4.5-9 4.5 9z" style="fill:#8f8981"/>
+   <g id="g10934">
+    <rect id="rect10833" transform="matrix(.83962 0 0 1 363 226)" width="106" height="33" style="fill-rule:evenodd;fill:#f44d27"/>
+    <text id="text10837" transform="translate(354.37 225.93)" font-size="12px" font-weight="700" style="fill-rule:evenodd;fill:#979797;font-family:'Source Code Pro';font-size:12px;font-weight:700;text-anchor:middle"><tspan id="tspan10835" x="53" y="20" style="fill:#f0f0f0">php_client</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>
