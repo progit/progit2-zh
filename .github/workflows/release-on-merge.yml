@@ -1,0 +1,42 @@
+name: Release on push to main
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: get bootstrap file
+      run: wget https://raw.githubusercontent.com/progit/progit2-pub/master/bootstrap.sh
+    - name: run bootstrap
+      run: sh bootstrap.sh
+    - name: Compute tag name
+      id: compute-tag
+      run: |
+        echo Computing next tag number
+        LASTPATCH=$(git describe --tags | cut -d- -f1 | cut -d. -f3)
+        PATCH=$(($LASTPATCH+1))
+        echo "::set-output name=tagname::2.1.${PATCH}"
+        echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+    - name: Build release assets
+      run: bundle exec rake book:build_action
+
+    - name: Create release
+      uses: ncipollo/release-action@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag: ${{ steps.compute-tag.outputs.tagname }}
+        commit: ${{ steps.compute-tag.outputs.branch }}
+        artifacts: './progit.epub,./progit.mobi,./progit.pdf,./progit.html'
