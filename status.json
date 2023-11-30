@@ -88,12 +88,10 @@
       "sections/client-hg.asc": 100,
       "sections/client-p4.asc": 100,
       "sections/client-svn.asc": 100,
-      "sections/client-tfs.asc": 100,
       "sections/import-custom.asc": 100,
       "sections/import-hg.asc": 100,
       "sections/import-p4.asc": 100,
-      "sections/import-svn.asc": 100,
-      "sections/import-tfs.asc": 100
+      "sections/import-svn.asc": 100
     },
     "10-git-internals": {
       "1-git-internals.asc": 100,
