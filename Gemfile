@@ -20,4 +20,4 @@ gem 'thread_safe'
 gem 'epubcheck-ruby'
 gem 'html-proofer'
 
-#gem 'kindlegen', '3.1.1'
+gem 'kindlegen', '3.1.1'
