@@ -8,13 +8,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    - name: get bootstrap file
-      run: wget https://raw.githubusercontent.com/progit/progit2-pub/master/bootstrap.sh
-    - name: run bootstrap
-      run: sh bootstrap.sh
     - name: Compute tag name
       id: compute-tag
       run: |
@@ -31,7 +27,7 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
     - name: Build release assets
-      run: bundle exec rake book:build_action
+      run: bundle exec rake book:build_build
 
     - name: Create release
       uses: ncipollo/release-action@v1
@@ -39,4 +35,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ steps.compute-tag.outputs.tagname }}
         commit: ${{ steps.compute-tag.outputs.branch }}
-        artifacts: './progit.epub,./progit.mobi,./progit.pdf,./progit.html'
+        artifacts: './progit.epub,./progit.fb2.zip,./progit.mobi,./progit.pdf,./progit.html'
