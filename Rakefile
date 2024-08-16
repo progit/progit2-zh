@@ -1,4 +1,14 @@
+def exec_or_raise(command)
+  puts `#{command}`
+  if (! $?.success?)
+    raise "'#{command}' failed"
+  end
+end
+
 namespace :book do
+
+  # Download asciidoctor-pdf-cjk-kai_gen_gothic
+  exec_or_raise("asciidoctor-pdf-cjk-kai_gen_gothic-install")
 
   # Variables referenced for build
   version_string = `git describe --tags --abbrev=0`.chomp
