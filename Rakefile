@@ -18,34 +18,10 @@ namespace :book do
     versions = version_string.split('.')
     version_string = versions[0] + '.' + versions[1] + '.' + versions[2].to_i.next.to_s
   end
+  lang = "CN"
   date_string = Time.now.strftime('%Y-%m-%d')
+  params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothic#{lang} --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}' "
   header_hash = `git rev-parse --short HEAD`.strip
-  
-  # Check language
-  repo = File.basename(`git rev-parse --show-toplevel`.chomp)
-  lang_match = repo.match(/progit2-([a-z-]*)/)
-  if lang_match
-    lang = lang_match[1]
-  else
-    lang = "en"
-  end
-
-  begin
-    if lang == "zh"
-      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicCN --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
-    elsif lang == "zh-tw"
-      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicTW --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
-    elsif lang == "ja"
-      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
-    elsif lang == "ko"
-      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicKR --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
-    else
-      params = "--attribute revnumber='#{version_string}' --attribute revdate='#{date_string}'"
-    end
-  rescue => e
-    puts e.message
-    puts 'Error when checking repo language(ignored)'
-  end
 
   # Check contributors list
   # This checks commit hash stored in the header of list against current HEAD
