@@ -8,12 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
-    - name: Download bootstrap file
-      run: wget https://raw.githubusercontent.com/progit/progit2-pub/master/bootstrap.sh
-    - name: Run bootstrap
-      run: sh bootstrap.sh
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -21,4 +17,4 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
     - name: Build book
-      run: bundle exec rake book:build_action
+      run: bundle exec rake book:build
