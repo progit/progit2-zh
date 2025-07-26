@@ -21,3 +21,4 @@ gem 'epubcheck-ruby'
 gem 'html-proofer'
 
 gem 'kindlegen', '3.1.1'
+gem 'nokogiri', '~> 1.13', '>= 1.13.10'
