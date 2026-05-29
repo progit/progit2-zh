@@ -32,13 +32,13 @@ namespace :book do
 
   begin
     if lang == "zh"
-      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicCN --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
+      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic-ex -a pdf-style=KaiGenGothicCN --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
     elsif lang == "zh-tw"
-      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicTW --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
+      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic-ex -a pdf-style=KaiGenGothicTW --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
     elsif lang == "ja"
-      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
+      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic-ex -a pdf-style=KaiGenGothicJP --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
     elsif lang == "ko"
-      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicKR --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
+      params = "-r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic-ex -a pdf-style=KaiGenGothicKR --attribute revnumber='#{version_string}' --attribute revdate='#{date_string}' --attribute lang='#{lang}'"
     else
       params = "--attribute revnumber='#{version_string}' --attribute revdate='#{date_string}'"
     end
